@@ -1,0 +1,28 @@
+.description{
+    font-size: 18px;
+    overflow: auto;
+}
+
+#title{
+
+    font-size: 50px;
+}
+
+label{
+
+    color: gray;
+
+}
+
+.clicked{
+
+    color: #c5c53d;
+}
+
+.nav{
+    background-color: #96999d !important;
+}
+
+.grad {
+    background-image: linear-gradient(to right, rgb(246, 228, 137) ,rgb(250, 242, 211), rgb(254, 230, 123));
+  }

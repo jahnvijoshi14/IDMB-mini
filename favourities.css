@@ -1,0 +1,32 @@
+#main {
+ 
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow :row wrap;
+    margin:5%;
+  }
+  
+#main>div {
+    width: 200px;
+    height: 250px;
+    margin: 10px;
+    overflow: auto;
+  }
+  
+  
+  
+#main>* {
+    flex: 1 1 486px;
+  }
+
+.nav{
+    background-color: #96999d !important;
+}
+
+.grad {
+  background-image: linear-gradient(to right, rgb(246, 228, 137) ,rgb(250, 242, 211), rgb(254, 230, 123));
+}
+
+.grad-div {
+  background-image: linear-gradient(to right, rgb(251, 239, 177) ,rgb(250, 242, 211), rgb(253, 237, 162));
+}

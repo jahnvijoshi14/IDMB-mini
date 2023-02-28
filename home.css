@@ -1,0 +1,34 @@
+.search-title{
+    margin-top: 12%;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dropdown-li{
+    display: block ;
+    position: absolute ;
+    margin: 0px ; 
+    margin-top: 2.4em ; 
+    overflow: auto;
+}
+
+.nav{
+    background-color: #96999d !important;
+}
+
+body{
+    background-color: #f4d476;;
+}
+
+.search-bar{
+    background-color: #f8e5ae !important;
+    border-color: navajowhite;
+}
+
+i:hover{
+
+    opacity: 0.6;
+}
+
+
