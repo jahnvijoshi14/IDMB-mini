@@ -24,13 +24,10 @@ function loadPage(id)
       
       return;
      }
-    //let data= JSON.parse(result);
-    console.log(result)
-    let contents="<li>"+result.Title+"</li>";
     
+    console.log(result)
     loadData(result)
-    //document.getElementById("test").innerHTML="<ul>"+contents+"</ul>"
-    //document.getElementById("o").innerHTML=data.Title;
+    
     })
 }
 

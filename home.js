@@ -5,14 +5,6 @@ const list=document.getElementById("list");
 const searchButtom=document.getElementById("search");
 
 
-
-
-// var hasFocus = $('#searchfield').is(':focus');
-// if(!hasFocus){
-//   list.style.display="none";
-//   list.disabled=true;
-// }
-
 function search(name){
 let url="http://www.omdbapi.com/?s="+name+"&apiKey=ea448adb"    
 fetch(url)
@@ -23,21 +15,17 @@ fetch(url)
      console.log(result)
      if(result.Response==="False")
      {
-      createToast(result.Error);
+      
       return;
      }
-    //let data= JSON.parse(result);
+    
     console.log(result.Search)
     showData(result.Search);
-    //document.getElementById("o").innerHTML=data.Title;
+    
 })
 }
 
-function createToast(message)
-{
-  console.log("toast")
-  //alert(message);
-}
+
 
 function showData(Search)
 {

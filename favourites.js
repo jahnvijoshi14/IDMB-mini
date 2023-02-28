@@ -19,13 +19,13 @@ function loadPage()
       
       return;
      }
-    //let data= JSON.parse(result);
+    
     console.log(result)
-    //contents=contents+"<li onclick='moviedetails(\""+result.imdbID+"\")'>"+result.Title+"</li>";
+   
     contents=contents+addData(result);
     
     document.getElementById("main").innerHTML=contents;
-    //document.getElementById("o").innerHTML=data.Title;
+    
     })
   }
 
