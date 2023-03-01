@@ -46,7 +46,7 @@ function addData(result)
       "<div class='card-body'>"+
         "<h5 class='card-title' onclick='moviedetails(\""+result.imdbID+"\")' >"+result.Title+"</h5>"+
         "<p class='card-text' >"+result.Plot.substring(0,160)+"...</p>"+
-        "<p class='card-text'><button class='text-muted' data-bs-toggle='tooltip' data-bs-placement='right' title='click to remove from favourites' onclick='removeFavorities(\""+result.imdbID+"\")'><i class='fa fa-heart' style='font-size:20px;color:red ;margin-right=1%;'></i></button></p>"+
+        "<p class='card-text' onclick='removeFavorities(\""+result.imdbID+"\")'><button class='text-muted' data-bs-toggle='tooltip' data-bs-placement='right' title='click to remove from favourites' onclick='removeFavorities(\""+result.imdbID+"\")'><i class='fa fa-heart' style='font-size:20px;color:red ;margin-right=1%;'></i></button></p>"+
       "</div>"+
     "</div>"+
   "</div>"+
