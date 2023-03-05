@@ -33,6 +33,9 @@ function loadPage() will take all the data from localstorage , in local storage 
 
 and, onclick of movie title it will redirect to movie detail page using function moviedetails(id) , in this function we are concatenating id of movie with the url making it a query string.
 
+moviedetail.js:
+getId() is called using window.location.search it will get the params of queryString and later substring it so that we can get the value of id, that id is then passed to loadPage() function from where we get the value of data w.r.t to id which is then passed to loadData() in which we render the data to the view.
+
 
 
 
