@@ -6,7 +6,7 @@ function loadPage()
   {
     
     
-    let url="http://www.omdbapi.com/?i="+localStorage.key(i)+"&apiKey=ea448adb"    
+    let url="https://www.omdbapi.com/?i="+localStorage.key(i)+"&apiKey=ea448adb"    
     fetch(url)
     .then(response=>{
 

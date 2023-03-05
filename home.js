@@ -6,7 +6,7 @@ const searchButtom=document.getElementById("search");
 
 
 function search(name){
-let url="http://www.omdbapi.com/?s="+name+"&apiKey=ea448adb"    
+let url="https://www.omdbapi.com/?s="+name+"&apiKey=ea448adb"    
 fetch(url)
 .then(response=>{
     return response.json();

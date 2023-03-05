@@ -12,7 +12,7 @@ function getId()
 
 function loadPage(id)
 {   
-    let url="http://www.omdbapi.com/?i="+id+"&apiKey=ea448adb"    
+    let url="https://www.omdbapi.com/?i="+id+"&apiKey=ea448adb"    
     fetch(url)
     .then(response=>{
     return response.json();
